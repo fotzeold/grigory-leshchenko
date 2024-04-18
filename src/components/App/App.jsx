@@ -1,5 +1,6 @@
 import Header from "../Header/Header";
 import Hero from "../Hero/Hero";
+import Books from "../Books/Books";
 
 const App = () => {
 
@@ -8,6 +9,7 @@ const App = () => {
 			<Header />
 			<main>
 				<Hero />
+				<Books />
 			</main>
 		</>
 	);

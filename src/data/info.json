@@ -1,0 +1,83 @@
+{
+	"message": [],
+	"books": [
+		{
+			"id": 1,
+			"title": "Порох і корупція або кому війна, кому мати рідна",
+			"descr": "",
+			"link": "https://drive.google.com/file/d/1wVXFALW4XlNcyzJN2xBgYK1Ontdpwf58/view?usp=drive_link",
+			"img": "https://firebasestorage.googleapis.com/v0/b/grigory-leshchenko.appspot.com/o/photo%2Fporoh.png?alt=media&token=2ccd1a6c-5744-403b-bd04-62995c26e0e2"
+		},
+		{
+			"id": 2,
+			"title": "Гей, Прем'єр-Міністр, годі красти або Донбас у серці назавжди",
+			"descr": "",
+			"link": "https://drive.google.com/file/d/174y8KKfOHvr8813fE64Xt3ixJJ31ZssM/view?usp=drive_link",
+			"img": "https://firebasestorage.googleapis.com/v0/b/grigory-leshchenko.appspot.com/o/photo%2Fpremyer.png?alt=media&token=a03b50d0-9159-4a01-92fa-d07969630131"
+		},
+		{
+			"id": 3,
+			"title": "Мер столиці корупції або як тебе не обікрасти, Києве мій",
+			"descr": "",
+			"link": "https://drive.google.com/file/d/1U77IQcPnJFN73D_XbrT_lMjzl5rTdBc_/view?usp=drive_link",
+			"img": "https://firebasestorage.googleapis.com/v0/b/grigory-leshchenko.appspot.com/o/photo%2Fmer.png?alt=media&token=a5142bae-f5a6-4b46-a5cd-84093166dd9d"
+		},
+		{
+			"id": 4,
+			"title": "Ректор - батько корупції",
+			"descr": "",
+			"link": "https://drive.google.com/file/d/1GzZBCndfiWdWTtQXm55cM-dagRQsMw0O/view?usp=drive_link",
+			"img": "https://firebasestorage.googleapis.com/v0/b/grigory-leshchenko.appspot.com/o/photo%2Frektor.png?alt=media&token=3230cf3b-a7b3-40cf-96f9-e9c71df8afbf"
+		},
+		{
+			"id": 5,
+			"title": "Сміття Верховної Ради",
+			"descr": "",
+			"link": "https://drive.google.com/file/d/1sMY0hJVRjwU6iHoGOFGoVj227TgYGlIJ/view?usp=drive_link",
+			"img": "https://firebasestorage.googleapis.com/v0/b/grigory-leshchenko.appspot.com/o/photo%2Fsmittia.png?alt=media&token=fbd38956-01bc-42bf-8442-d552d6deef36"
+		},
+		{
+			"id": 6,
+			"title": "Генеральний прокурор - цепний пес Президента",
+			"descr": "",
+			"link": "https://drive.google.com/file/d/1IpmXAqWjCd4gX2cx7CrKbwViilxAydWT/view?usp=drive_link",
+			"img": "https://firebasestorage.googleapis.com/v0/b/grigory-leshchenko.appspot.com/o/photo%2Fprokuror.png?alt=media&token=bdec0e72-82c2-4375-b80d-93397d175500"
+		},
+		{
+			"id": 7,
+			"title": "Ігри в маніяків або коли президент очолить корупцію",
+			"descr": "",
+			"link": "https://drive.google.com/file/d/1FtS9ZOlDFehWy6OODsTkbkrHVc2VAxLQ/view?usp=drive_link",
+			"img": "https://firebasestorage.googleapis.com/v0/b/grigory-leshchenko.appspot.com/o/photo%2Fmaniak.png?alt=media&token=65a95581-855b-48e0-afe5-e54328d39fff"
+		},
+		{
+			"id": 8,
+			"title": "Корупція моє ремесло",
+			"descr": "",
+			"link": "https://drive.google.com/file/d/1PehpJ_q1tt37GiL7LL_uIWjOkd_DF-Rk/view?usp=drive_link",
+			"img": "https://firebasestorage.googleapis.com/v0/b/grigory-leshchenko.appspot.com/o/photo%2Fremeslo.png?alt=media&token=16f6db13-21a8-4365-9212-5dd7a72725ad"
+		},
+		{
+			"id": 9,
+			"title": "Страта журналістки",
+			"descr": "",
+			"link": "https://drive.google.com/file/d/1FlrQ4bnVlxs_GdPJpj7LWpX-rVzBlsEI/view?usp=drive_link",
+			"img": "https://firebasestorage.googleapis.com/v0/b/grigory-leshchenko.appspot.com/o/photo%2Fstrata.png?alt=media&token=46796604-25da-4b67-bf6c-5282433b3b08"
+		},
+		{
+			"id": 10,
+			"title": "Корупціонер, який розбив моє серце",
+			"descr": "",
+			"link": "https://drive.google.com/file/d/1YWqYTO2n9TrIdrNeVq-TugBCUqqUm77c/view?usp=drive_link",
+			"img": "https://firebasestorage.googleapis.com/v0/b/grigory-leshchenko.appspot.com/o/photo%2Fkorupcioner.png?alt=media&token=71ee50cf-a6d8-4d52-9762-530d361fb38e"
+		},
+		{
+			"id": 11,
+			"title": "Бумеранг",
+			"descr": "",
+			"link": "https://drive.google.com/file/d/12eTWTBHyWe1krtZQmVcOB3QGAbA3mszv/view?usp=drive_link",
+			"img": "https://firebasestorage.googleapis.com/v0/b/grigory-leshchenko.appspot.com/o/photo%2Fbumerang.png?alt=media&token=c16dec65-a1e3-4420-820f-173eee4ba9be"
+		}
+	],
+	"blog": []
+}
