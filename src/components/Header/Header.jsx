@@ -10,13 +10,13 @@ const Header = () => {
 			<div className="container">
 				<div className="row">
 					<div className="logo">
-						<a href=""><img src={logo} alt="" /></a>
+						<a className="link" href=""><img src={logo} alt="" /></a>
 					</div>
 					<nav className={`row ${active && "active"}`}>
-						<a href="">Головна</a>
-						<a href="">Мої листи</a>
-						<a href="">Блог</a>
-						<a href="">Контакти</a>
+						<a className="link" href="">Головна</a>
+						<a className="link" href="">Мої листи</a>
+						<a className="link" href="">Блог</a>
+						<a className="link" href="">Контакти</a>
 					</nav>
 					<div onClick={() => setActive(prev => !prev)} className={`burger row ${active && "active"}`}>
 						<figure></figure>
