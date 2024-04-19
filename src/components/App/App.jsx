@@ -3,6 +3,7 @@ import Hero from "../Hero/Hero";
 import Books from "../Books/Books";
 import Advertising from "../Advertising/Advertising";
 import AdditionalBlock from "../AdditionalBlock/AdditionalBlock";
+import Footer from "../Footer/Footer";
 
 import { useState, useEffect } from "react"
 import { getInfo } from "../../services/api"
@@ -25,6 +26,7 @@ const App = () => {
 				<Advertising />
 				<AdditionalBlock info={{ blog, books }} />
 			</main>
+			<Footer />
 		</>
 	);
 }
