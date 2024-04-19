@@ -1,6 +1,7 @@
 import Header from "../Header/Header";
 import Hero from "../Hero/Hero";
 import Books from "../Books/Books";
+import Advertising from "../Advertising/Advertising";
 
 const App = () => {
 
@@ -10,6 +11,7 @@ const App = () => {
 			<main>
 				<Hero />
 				<Books />
+				<Advertising />
 			</main>
 		</>
 	);

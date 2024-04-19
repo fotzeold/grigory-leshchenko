@@ -1,5 +1,7 @@
-import logo from "../img/logo/logo.png"
+import logo from "../img/logo/logo.svg"
+import blogHomeImg from "../img/back/blog-home.png"
 
 export {
-	logo
+	logo,
+	blogHomeImg
 }
