@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './components/App/App';
 import { initializeApp } from "firebase/app";
+import { BrowserRouter } from "react-router-dom";
 
 const firebaseConfig = {
 	apiKey: "AIzaSyDSIF7Aeo3UCPXOfpN9kDzl_ZuRLrM1Q30",
@@ -18,7 +19,9 @@ const app = initializeApp(firebaseConfig);
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 	<React.StrictMode>
-		<App />
+		<BrowserRouter>
+			<App />
+		</BrowserRouter>
 	</React.StrictMode>
 );
 

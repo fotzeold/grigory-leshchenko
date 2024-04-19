@@ -1,10 +1,9 @@
 import Header from "../Header/Header";
-import Hero from "../Hero/Hero";
-import Books from "../Books/Books";
-import Advertising from "../Advertising/Advertising";
+import Home from "../Home/Home";
 import AdditionalBlock from "../AdditionalBlock/AdditionalBlock";
 import Footer from "../Footer/Footer";
 
+import { Routes, Route } from "react-router-dom";
 import { useState, useEffect } from "react"
 import { getInfo } from "../../services/api"
 
@@ -21,9 +20,12 @@ const App = () => {
 		<>
 			<Header />
 			<main>
-				<Hero />
-				<Books books={books} />
-				<Advertising />
+				<Routes>
+					<Route path="/" element={<Home books={books} />} />
+					{/* <Route path="/" element={<Home books={books} />} />
+					<Route path="/" element={<Home books={books} />} />
+					<Route path="/" element={<Home books={books} />} /> */}
+				</Routes>
 				<AdditionalBlock info={{ blog, books }} />
 			</main>
 			<Footer />
