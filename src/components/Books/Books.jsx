@@ -1,16 +1,6 @@
 import "./books.scss"
 
-import { useState, useEffect } from "react"
-import { getInfo } from "../../services/api"
-
-const Books = () => {
-
-	const [books, setBooks] = useState([])
-
-	useEffect(() => {
-		setBooks(getInfo("books"))
-	}, [])
-
+const Books = ({ books }) => {
 	return (
 		<section className="books">
 			<div className="container">
