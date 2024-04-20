@@ -42,3 +42,9 @@ code {
 section{
 	padding: 75px 0;
 }
+
+h2{
+	font-size: 32px;
+	font-weight: 500;
+	margin-bottom: 30px;
+}

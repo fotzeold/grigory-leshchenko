@@ -11,7 +11,7 @@ const Header = () => {
 			<div className="container">
 				<div className="row">
 					<div className="logo">
-						<a className="link" href=""><img src={logo} alt="" /></a>
+						<Link className="link" to="/"><img src={logo} alt="" /></Link>
 					</div>
 					<nav className={`row ${active && "active"}`}>
 						<Link className="link" to="/">Головна</Link>

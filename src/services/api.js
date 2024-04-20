@@ -11,5 +11,15 @@ function getInfo(param) {
 	}
 }
 
+async function getLetter(url) {
+	try {
+		let res = await fetch(url)
+		let data = res.text()
+		return data
+	} catch (error) {
+		return error
+	}
+}
 
-export { getInfo }
+
+export { getInfo, getLetter }
