@@ -2,6 +2,9 @@ import Header from "../Header/Header";
 import Home from "../Home/Home";
 import Letters from "../Letters/Letters";
 import Letter from "../Letter/Letter";
+import Blogs from "../Blogs/Blogs";
+import Blog from "../Blog/Blog";
+import Book from "../Book/Book";
 import AdditionalBlock from "../AdditionalBlock/AdditionalBlock";
 import Footer from "../Footer/Footer";
 
@@ -26,10 +29,11 @@ const App = () => {
 			<main>
 				<Routes>
 					<Route path="/" element={<Home books={books} />} />
+					<Route path="/book/:bookId" element={<Book books={books} />} />
 					<Route path="/letters" element={<Letters message={message} />} />
 					<Route path="/letters/:letterId" element={<Letter message={message} />} />
-					{/* <Route path="/" element={<Home books={books} />} />
-					<Route path="/" element={<Home books={books} />} /> */}
+					<Route path="/blogs" element={<Blogs blog={blog} />} />
+					<Route path="/blogs/:blogId" element={<Blog blog={blog} />} />
 				</Routes>
 				<AdditionalBlock info={{ blog, books }} />
 			</main>

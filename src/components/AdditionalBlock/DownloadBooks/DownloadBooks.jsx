@@ -6,7 +6,7 @@ const DownloadBooks = ({ books }) => {
 			<h2 className="additional__part-title">Завантажити книжки</h2>
 			<div className="additional__part-content">
 				<ul>
-					{books.length > 0 && books.map((el) => <li key={el.id}><a href={el.link} className="link">{el.title}</a></li>)}
+					{books.length > 0 && books.map((el) => <li key={el.id}><a href={el.link} target="blank" className="link">{el.title}</a></li>)}
 				</ul>
 			</div>
 		</div>

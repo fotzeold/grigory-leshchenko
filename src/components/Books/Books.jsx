@@ -1,5 +1,7 @@
 import "./books.scss"
 
+import { Link } from "react-router-dom"
+
 const Books = ({ books }) => {
 	return (
 		<section className="books">
@@ -11,7 +13,7 @@ const Books = ({ books }) => {
 							<div className="books__item" key={book.id}>
 								<img src={book.img} alt={book.title} />
 								<h3>{book.title}</h3>
-								<a href="" className="link btn">Читати</a>
+								<Link to={`/book/${book.id}`} className="link btn">Читати</Link>
 							</div>
 						)
 					})}
