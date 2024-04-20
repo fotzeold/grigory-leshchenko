@@ -4,6 +4,7 @@ import './index.css';
 import App from './components/App/App';
 import { initializeApp } from "firebase/app";
 import { BrowserRouter } from "react-router-dom";
+import ScrollToTop from './services/scrollToTop';
 
 const firebaseConfig = {
 	apiKey: "AIzaSyDSIF7Aeo3UCPXOfpN9kDzl_ZuRLrM1Q30",
@@ -20,6 +21,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 	<React.StrictMode>
 		<BrowserRouter>
+			<ScrollToTop />
 			<App />
 		</BrowserRouter>
 	</React.StrictMode>
