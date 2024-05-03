@@ -1,10 +1,18 @@
 import { logo } from "../../services/image";
 import "./header.scss"
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const Header = () => {
 	const [active, setActive] = useState(false)
+
+	useEffect(() => {
+		if (active) {
+			document.body.style.overflow = "hidden"
+		} else {
+			document.body.style.overflow = ""
+		}
+	}, [active])
 
 	return (
 		<header>
